@@ -26,7 +26,6 @@ void displayHelp() {
     std::cout << "MKDIR - Create a Directory" << std::endl;
     std::cout << "FORMAT - Format a drive" << std::endl;
     std::cout << "CHKDSK - Check a drive for errors" << std::endl;
-    std::cout << "DATE - Display or set the date" << std::endl;
     std::cout << "VOL - Display disk volume" << std::endl;
     std::cout << "MEM - Display memory usage" << std::endl;
     std::cout << "VER - Display version information" << std::endl;
