@@ -18,6 +18,8 @@ void clearScreen() {
     system("cls");
 }
 
+std::map<std::string, std::vector<std::string>> directories;
+
 void displayHelp() {
     std::cout << "Available commands:" << std::endl;
     std::cout << "CLS - Clear the screen" << std::endl;
@@ -26,7 +28,6 @@ void displayHelp() {
     std::cout << "MKDIR - Create a Directory" << std::endl;
     std::cout << "FORMAT - Format a drive" << std::endl;
     std::cout << "CHKDSK - Check a drive for errors" << std::endl;
-    std::cout << "DATE - Display or set the date" << std::endl;
     std::cout << "VOL - Display disk volume" << std::endl;
     std::cout << "MEM - Display memory usage" << std::endl;
     std::cout << "VER - Display version information" << std::endl;
@@ -66,7 +67,6 @@ void exitEmulator() {
     exit(0);
 }
 
-std::map<std::string, std::vector<std::string>> directories;
 
 void createDirectory(const std::string& dirname) {
     directories[dirname];
